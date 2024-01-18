@@ -1,15 +1,8 @@
-package com.carlocodes.accountservice.entities;
+package com.carlocodes.account_service.dtos;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import java.math.BigDecimal;
 
-@Entity
-public class Account {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class AccountDto {
     private Long id;
     private String name;
     private BigDecimal balance;
@@ -40,7 +33,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "AccountDto{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", balance=" + balance +
