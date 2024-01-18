@@ -1,6 +1,6 @@
-package com.carlocodes.accountservice.repositories;
+package com.carlocodes.account_service.repositories;
 
-import com.carlocodes.accountservice.entities.Account;
+import com.carlocodes.account_service.entities.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

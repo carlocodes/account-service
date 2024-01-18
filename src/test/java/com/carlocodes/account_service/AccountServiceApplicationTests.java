@@ -1,4 +1,4 @@
-package com.carlocodes.accountservice;
+package com.carlocodes.account_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
